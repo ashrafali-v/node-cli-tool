@@ -1,0 +1,20 @@
+{
+  "name": "create-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test":"npx jest --coverage",
+    "test:unit": "jest --coverage ./src/*.test.js",
+    "test:integration": "jest integration/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^4.3.6",
+    "inquirer": "^8.1.5",
+    "jest": "^27.2.2"
+  }
+}
