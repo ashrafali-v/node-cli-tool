@@ -1,4 +1,3 @@
-
 Install as a dev dependency on a particular project:
 
 npm i fast-csv
